@@ -12,7 +12,6 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "TicketZone - Discover Amazing Events",
   description: "Find and book tickets to the best events happening around you",
-  generator: "v0.app",
   icons: {
     icon: "/ticket.png",
   },

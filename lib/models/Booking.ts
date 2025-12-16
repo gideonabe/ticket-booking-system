@@ -36,6 +36,6 @@ const BookingSchema = new Schema<IBooking>(
 
 BookingSchema.index({ eventId: 1 })
 BookingSchema.index({ attendeeEmail: 1 })
-BookingSchema.index({ bookingReference: 1 })
+// BookingSchema.index({ bookingReference: 1 })
 
 export const Booking = models.Booking || model<IBooking>("Booking", BookingSchema)
