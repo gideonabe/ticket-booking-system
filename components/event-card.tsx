@@ -30,7 +30,7 @@ export function EventCard({ event }: EventCardProps) {
   })
 
   return (
-    <Card className="pt-0 overflow-hidden hover:shadow-lg transition-shadow">
+    <Card className="pt-0 pb-0 overflow-hidden hover:shadow-lg transition-shadow">
       <div className="aspect-video relative bg-muted overflow-hidden">
         {event.imageUrl ? (
           <img src={event.imageUrl || "/placeholder.svg"} alt={event.title} className="object-cover w-full h-full" />
@@ -41,7 +41,7 @@ export function EventCard({ event }: EventCardProps) {
         )}
         <Badge className="absolute top-3 right-3">{event.category}</Badge>
       </div>
-      <CardContent className="px-5">
+      <CardContent className="px-5 pb-0">
         <h3 className="font-semibold text-xl mb-2 line-clamp-1 text-balance">{event.title}</h3>
         <p className="text-sm text-muted-foreground mb-4 line-clamp-2">{event.description}</p>
         <div className="space-y-2">
