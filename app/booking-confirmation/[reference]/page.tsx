@@ -96,9 +96,11 @@ export default function BookingConfirmationPage({ params }: { params: Promise<{ 
   return (
     <div className="min-h-screen bg-background">
       <header className="border-b">
-        <div className="container mx-auto px-4 py-4">
-          <h1 className="text-2xl font-bold">TicketZone</h1>
-        </div>
+        <Link href="/">
+          <div className="container mx-auto px-4 py-4">
+            <h1 className="text-2xl font-bold">TicketZone</h1>
+          </div>
+        </Link>
       </header>
 
       <main className="container mx-auto px-4 py-8 max-w-3xl">

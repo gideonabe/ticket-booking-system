@@ -79,7 +79,9 @@ export default function HomePage() {
     <div className="min-h-screen bg-background">
       <header className="border-b sticky top-0 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 z-10">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <h1 className="text-2xl font-bold">TicketZone</h1>
+          <Link href="/">
+            <h1 className="text-2xl font-bold text-primary">TicketZone</h1>
+          </Link>
           <nav className="flex items-center gap-4">
             <Button variant="ghost" asChild>
               <Link href="/my-bookings">My Bookings</Link>
