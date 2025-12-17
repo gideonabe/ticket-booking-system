@@ -105,8 +105,8 @@ export default function BookingConfirmationPage({ params }: { params: Promise<{ 
 
       <main className="container mx-auto px-4 py-8 max-w-3xl">
         <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-green-100 dark:bg-green-900/20 rounded-full mb-4">
-            <CheckCircle className="w-8 h-8 text-green-600 dark:text-green-500" />
+          <div className="inline-flex items-center justify-center w-16 h-16 bg-purple-100 dark:bg-purple-900/20 rounded-full mb-4">
+            <CheckCircle className="w-8 h-8 text-purple-600 dark:text-purple-500" />
           </div>
           <h1 className="text-4xl font-bold mb-2">Booking Confirmed!</h1>
           <p className="text-muted-foreground text-lg">Your tickets have been successfully booked</p>
@@ -205,7 +205,7 @@ export default function BookingConfirmationPage({ params }: { params: Promise<{ 
         </div>
 
         <div className="mt-6 flex justify-center gap-4">
-          <Button asChild variant="outline">
+          <Button asChild variant="outline" className=" hover:text-white">
             <Link href="/">Browse More Events</Link>
           </Button>
           <Button asChild>
