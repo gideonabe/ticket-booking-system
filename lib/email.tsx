@@ -77,27 +77,28 @@ export async function sendBookingConfirmationEmail(data: BookingEmailData) {
           <div class="ticket-info">
             <h2 style="margin-top: 0; color: #667eea;">Event Details</h2>
             <div class="info-row">
-              <span class="info-label">Event </span>
-              <span class="info-value"> ${eventTitle}</span>
+              <span class="info-label">Event:&nbsp;
+              </span>
+              <span class="info-value">${eventTitle}</span>
             </div>
             <div class="info-row">
-              <span class="info-label">Date </span>
-              <span class="info-value"> ${eventDate}</span>
+              <span class="info-label">Date:&nbsp;</span>
+              <span class="info-value">${eventDate}</span>
             </div>
             <div class="info-row">
-              <span class="info-label">Time </span>
-              <span class="info-value"> ${eventTime}</span>
+              <span class="info-label">Time:&nbsp; </span>
+              <span class="info-value">${eventTime}</span>
             </div>
             <div class="info-row">
-              <span class="info-label">Venue </span>
+              <span class="info-label">Venue:&nbsp; </span>
               <span class="info-value"> ${eventVenue}</span>
             </div>
             <div class="info-row">
-              <span class="info-label">Number of Tickets </span>
+              <span class="info-label">Number of Tickets:&nbsp;</span>
               <span class="info-value"> ${numberOfTickets}</span>
             </div>
             <div class="info-row" style="border-bottom: none;">
-              <span class="info-label">Total Amount </span>
+              <span class="info-label">Total Amount:&nbsp; </span>
               <span class="info-value"> $${totalAmount}</span>
             </div>
           </div>
@@ -107,7 +108,7 @@ export async function sendBookingConfirmationEmail(data: BookingEmailData) {
             <div style="text-align: center; padding: 20px; background: white; border-radius: 8px; margin: 20px 0;">
               <p style="color: #666; margin-top: 15px; font-size: 14px;">
                 Scan the downloaded QR code at the venue entrance<br/>
-                Or enter reference: <strong> ${bookingReference}</strong>
+                Or enter reference: <strong>${bookingReference}</strong>
               </p>
             </div>
           </div>
@@ -117,7 +118,7 @@ export async function sendBookingConfirmationEmail(data: BookingEmailData) {
             <ul style="margin: 10px 0; padding-left: 20px;">
               <li>Please arrive at the venue 30 minutes before the event starts</li>
               <li>Present this QR code at the entrance for check-in</li>
-              <li>Keep your booking reference handy: <strong> ${bookingReference}</strong></li>
+              <li>Keep your booking reference handy: <strong>${bookingReference}</strong></li>
               <li>This email serves as your ticket confirmation</li>
             </ul>
           </div>

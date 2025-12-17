@@ -1,3 +1,5 @@
+![TicketZone Banner](https://ticketzonebooking.vercel.app/ticketzone.png)
+
 # TicketZone - Event Ticket Booking System
 
 A production-ready event ticket booking platform built with Next.js, MongoDB, and modern web technologies.
@@ -12,6 +14,10 @@ A production-ready event ticket booking platform built with Next.js, MongoDB, an
 - **QR Scanner**: Mobile-friendly scanner for check-in validation
 - **Authentication**: Secure user authentication with role-based access control
 - **Responsive Design**: Mobile-first design that works on all devices
+
+## Demo
+
+You can check the live demo here: [https://ticketzonebooking.vercel.app/](https://ticketzonebooking.vercel.app/)
 
 ## Tech Stack
 
